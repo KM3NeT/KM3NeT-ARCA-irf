@@ -1,0 +1,60 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "codeRepository": "https://git.km3net.de/open-data/public-candidates/open-point-source-search",
+    "dateCreated": "TBD",
+    "datePublished": "TBD",
+    "dateModified": "TBD",
+    "downloadUrl": "https://git.km3net.de/open-data/public-candidates/open-point-source-search.git",
+    "issueTracker": "https://git.km3net.de/open-data/public-candidates/open-point-source-search/-/issues",
+    "name": "KM3NeT/ARCA230 instrument response functions and point source analysis.",
+    "version": "0.0.1",
+    "description": "This repository contains the instrument response functions of the KM3NeT/ARCA230 detector alongside an example analysis for studying the sensitivity to neutrino point sources.",
+    "applicationCategory": "Astroparticle physics",
+    "releaseNotes": "First commit in line with paper publication.",
+    "referencePublication": "TBD",
+    "developmentStatus": "active",
+    "readme": "https://git.km3net.de/open-data/public-candidates/open-point-source-search/-/blob/master/README.md?ref_type=heads",
+    "softwareVersion": "1.0.0",
+    "keywords": [
+        "KM3NeT",
+        "ARCA",
+        "Instrument response functions",
+        "neutrinos",
+        "point source"
+    ],
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "softwareRequirements": [
+        "Python 3.8",
+        "gammapy 0.17"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-4980-044X",
+            "givenName": "Thijs",
+            "familyName": "van Eeden",
+            "email": "thijsvaneeden@gmail.com",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Nikhef"
+            }
+        }
+    ],
+    "maintainer": [
+        {
+            "@type": "Organization",
+            "@id": "https://km3net.org",
+            "name": "KM3NeT Collaboration",
+            "email": "opendata@km3net.de",
+            "url": "http://openscience.km3net.de"
+        }
+    ]
+}
